@@ -47,5 +47,5 @@ The project demonstrates the use of deep learning models for automated image cla
 
 ## Author
 
-Rakesh N R
-Bachelor Project – Mechatronics Engineering
+Rakesh Nuggehalli Ramesh
+Main Bachelor Project – Mechatronics Engineering
