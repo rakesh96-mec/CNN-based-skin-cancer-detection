@@ -1,0 +1,30 @@
+{
+  "0": {
+    "name": "Actinic Keratosis",
+    "description": "Model classification category: actinic keratosis."
+  },
+  "1": {
+    "name": "Basal Cell Carcinoma (BCC)",
+    "description": "Model classification category: basal cell carcinoma (BCC)."
+  },
+  "2": {
+    "name": "Benign Keratosis",
+    "description": "Model classification category: benign keratosis."
+  },
+  "3": {
+    "name": "Dermatofibroma",
+    "description": "Model classification category: dermatofibroma."
+  },
+  "4": {
+    "name": "Melanoma",
+    "description": "Model classification category: melanoma."
+  },
+  "5": {
+    "name": "Melanocytic Nevus",
+    "description": "Model classification category: melanocytic nevus."
+  },
+  "6": {
+    "name": "Vascular Lesion",
+    "description": "Model classification category: vascular lesion."
+  }
+}
