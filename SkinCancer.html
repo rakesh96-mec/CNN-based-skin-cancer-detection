@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skin Lesion Classification</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.5}
+h1{margin-bottom:8px}.note{color:#555}
+form{border:1px solid #ddd;padding:24px;border-radius:10px}
+input[type=file]{margin:14px 0}
+button{padding:10px 18px;border:0;border-radius:6px;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>Skin Lesion Classification</h1>
+<p class="note">Upload an image for classification by the trained CNN model.</p>
+<form action="/detectCancer" method="POST" enctype="multipart/form-data">
+<label for="file"><strong>Choose an image:</strong></label><br>
+<input id="file" name="file" type="file" accept="image/*" capture="environment" required><br>
+<button type="submit">Submit</button>
+</form>
+<p class="note">Prototype/research use only. Model output is a classification result and should not be treated as a medical diagnosis.</p>
+</body>
+</html>
